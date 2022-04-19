@@ -8,6 +8,33 @@
       <meta name="keywords" content="HTML, CSS, JavaScript" />
       <meta name="author" content="Aframuz" />
 
+      <!-- Favicon Javascript icons created by Freepik - Flaticon -->
+      <link
+         rel="apple-touch-icon"
+         sizes="180x180"
+         href="./assets/img/favicon/apple-touch-icon.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./assets/img/favicon/favicon-32x32.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="16x16"
+         href="./assets/img/favicon/favicon-16x16.png"
+      />
+      <link rel="manifest" href="./assets/img/favicon/site.webmanifest" />
+      <link
+         rel="mask-icon"
+         href="./assets/img/favicon/safari-pinned-tab.svg"
+         color="#5bbad5"
+      />
+      <meta name="msapplication-TileColor" content="#da532c" />
+      <meta name="theme-color" content="#ffffff" />
+
       <!-- CSS -->
       <link
          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -36,16 +63,28 @@
                      <div class="card-body">
                         <div class="card-text">
                            <p class="mb-1">
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Sequi iusto itaque debitis unde libero.
-                              Doloremque, hic! Nostrum libero adipisci eveniet,
-                              nesciunt est similique quis. Quam qui quisquam
-                              esse consectetur eligendi. Provident,
-                              reprehenderit facere facilis dolorem in recusandae
-                              dolores rerum! Debitis illo corrupti temporibus
-                              animi sit enim minima, commodi omnis recusandae
-                              est, veritatis assumenda cum rem, nam quia!
-                              Debitis, culpa! Nulla.
+                              En tus tareas como desarrollador/a no sólo tendrás
+                              que escribir código desde 0, sino que muchas veces
+                              tendrás que completar tareas junto con tu equipo
+                              de trabajo, colaborando con las habilidades que
+                              cada uno posee para construir el proyecto
+                              solicitado.
+                           </p>
+                           <p class="mb-1">
+                              En uno de los proyectos que se están trabajando en
+                              la empresa, ya se ha resuelto el código HTML por
+                              un integrante del equipo de trabajo, y te
+                              solicitan incluir la lógica de JavaScript para
+                              terminar los requerimientos.
+                           </p>
+                           <p class="mb-1">
+                              En el siguiente desafío pondremos en práctica el
+                              uso de listener y selectores para manipular los
+                              elementos del DOM, ya sea para cambiar sus estilos
+                              o añadir mensajes informativos para el usuario a
+                              la hora de completar un formulario que permitan
+                              validar de manera rápida y sencilla los datos
+                              ingresados por el usuario.
                            </p>
                         </div>
                      </div>
@@ -70,12 +109,70 @@
                               data-bs-parent="#accordion"
                            >
                               <div class="accordion-body">
-                                 1. Lorem ipsum dolor sit amet consectetur
-                                 adipisicing elit. Temporibus quod cumque
-                                 necessitatibus quo vel fugiat! Illum mollitia
-                                 voluptates nihil odit similique sequi
-                                 consequatur dolores possimus aliquam
-                                 repudiandae! Architecto, perspiciatis ipsa?
+                                 <p>
+                                    1. Desarrollar un código para validar un
+                                    formulario de contacto utilizando el evento
+                                    submit y las expresiones regulares que
+                                    permitan el ingreso de caracteres desde la
+                                    “A-a” hasta la “Z-z” mediante el método
+                                    test() de JavaScript, mostrando un mensaje
+                                    de error y/o éxito cuando corresponda. Es
+                                    decir, el usuario deberá obligatoriamente
+                                    ingresar datos en el formulario y que estos
+                                    solo sean caracteres alfabéticos de la “a”
+                                    hasta la “z” para poder enviar la
+                                    información. Como se muestra en las
+                                    siguientes imágenes:
+                                 </p>
+                                 <!-- Carousel Exercise 01 -->
+                                 <div
+                                    id="exercise01Carousel"
+                                    class="carousel carousel-dark slide"
+                                    data-bs-ride="carousel"
+                                 >
+                                    <div class="carousel-inner">
+                                       <div class="carousel-item active">
+                                          <img
+                                             src="./assets/img/exercise01-01.jpg"
+                                             class="d-block w-100"
+                                             alt="Ejercicio 1 sin errores"
+                                          />
+                                       </div>
+                                       <div class="carousel-item">
+                                          <img
+                                             src="./assets/img/exercise01-02.jpg"
+                                             class="d-block w-100"
+                                             alt="Ejercicio 1 con errores"
+                                          />
+                                       </div>
+                                    </div>
+                                    <button
+                                       class="carousel-control-prev"
+                                       type="button"
+                                       data-bs-target="#exercise01Carousel"
+                                       data-bs-slide="prev"
+                                    >
+                                       <span
+                                          class="carousel-control-prev-icon"
+                                          aria-hidden="true"
+                                       ></span>
+                                       <span class="visually-hidden"
+                                          >Previous</span
+                                       >
+                                    </button>
+                                    <button
+                                       class="carousel-control-next"
+                                       type="button"
+                                       data-bs-target="#exercise01Carousel"
+                                       data-bs-slide="next"
+                                    >
+                                       <span
+                                          class="carousel-control-next-icon"
+                                          aria-hidden="true"
+                                       ></span>
+                                       <span class="visually-hidden">Next</span>
+                                    </button>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -95,12 +192,61 @@
                               data-bs-parent="#accordion"
                            >
                               <div class="accordion-body">
-                                 2. Lorem ipsum dolor sit amet consectetur
-                                 adipisicing elit. Deserunt, enim voluptate
-                                 pariatur soluta explicabo sunt, veniam qui
-                                 atque cumque tenetur delectus quasi? Hic porro
-                                 molestiae odit. Nam voluptatem aspernatur
-                                 commodi.
+                                 <p>
+                                    2. A partir de un selector de colores,
+                                    cambia el color del cuadro principal al
+                                    hacer click sobre uno de los colores. Ver
+                                    las siguientes imágenes:
+                                 </p>
+                                 <!-- Carousel Exercise 02 -->
+                                 <div
+                                    id="exercise02Carousel"
+                                    class="carousel carousel-dark slide"
+                                    data-bs-ride="carousel"
+                                 >
+                                    <div class="carousel-inner">
+                                       <div class="carousel-item active">
+                                          <img
+                                             src="./assets/img/exercise02-01.jpg"
+                                             class="d-block w-100"
+                                             alt="Ejercicio 2 sin colores seleccionados"
+                                          />
+                                       </div>
+                                       <div class="carousel-item">
+                                          <img
+                                             src="./assets/img/exercise02-02.jpg"
+                                             class="d-block w-100"
+                                             alt="Ejercicio 2 con un color seleccionado"
+                                          />
+                                       </div>
+                                    </div>
+                                    <button
+                                       class="carousel-control-prev"
+                                       type="button"
+                                       data-bs-target="#exercise02Carousel"
+                                       data-bs-slide="prev"
+                                    >
+                                       <span
+                                          class="carousel-control-prev-icon"
+                                          aria-hidden="true"
+                                       ></span>
+                                       <span class="visually-hidden"
+                                          >Previous</span
+                                       >
+                                    </button>
+                                    <button
+                                       class="carousel-control-next"
+                                       type="button"
+                                       data-bs-target="#exercise02Carousel"
+                                       data-bs-slide="next"
+                                    >
+                                       <span
+                                          class="carousel-control-next-icon"
+                                          aria-hidden="true"
+                                       ></span>
+                                       <span class="visually-hidden">Next</span>
+                                    </button>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -120,60 +266,11 @@
                               data-bs-parent="#accordion"
                            >
                               <div class="accordion-body">
-                                 3. Lorem ipsum dolor sit amet consectetur
-                                 adipisicing elit. Itaque, a rem nam provident
-                                 hic, eveniet dolorum praesentium ipsam
-                                 dignissimos officia doloribus tempora, et rerum
-                                 minima non vel mollitia consectetur soluta!
-                              </div>
-                           </div>
-                        </div>
-                        <!-- Item 4 -->
-                        <div class="accordion-item">
-                           <h2 class="accordion-header" id="flush-headingFour">
-                              <button
-                                 class="accordion-button collapsed"
-                                 type="button"
-                                 data-bs-toggle="collapse"
-                                 data-bs-target="#flush-collapseFour"
-                              ></button>
-                           </h2>
-                           <div
-                              id="flush-collapseFour"
-                              class="accordion-collapse collapse"
-                              data-bs-parent="#accordion"
-                           >
-                              <div class="accordion-body">
-                                 4. Lorem, ipsum dolor sit amet consectetur
-                                 adipisicing elit. Unde esse vel doloremque
-                                 porro. Soluta sunt, natus iste veniam illum
-                                 amet adipisci voluptate, perferendis rem
-                                 voluptatem, eaque laboriosam velit vel
-                                 blanditiis!
-                              </div>
-                           </div>
-                        </div>
-                        <!-- Item 5 -->
-                        <div class="accordion-item">
-                           <h2 class="accordion-header" id="flush-headingFive">
-                              <button
-                                 class="accordion-button collapsed"
-                                 type="button"
-                                 data-bs-toggle="collapse"
-                                 data-bs-target="#flush-collapseFive"
-                              ></button>
-                           </h2>
-                           <div
-                              id="flush-collapseFive"
-                              class="accordion-collapse collapse"
-                              data-bs-parent="#accordion"
-                           >
-                              <div class="accordion-body">
-                                 5. Lorem ipsum dolor, sit amet consectetur
-                                 adipisicing elit. Voluptatum velit ipsam ullam
-                                 eaque, tempora nisi voluptates culpa provident
-                                 accusantium similique doloremque enim laborum?
-                                 Impedit in, recusandae id natus ipsam aliquam.
+                                 3. Dar la funcionalidad de sumar y restar a la
+                                 calculadora, mostrando el resultado en el
+                                 elemento con clase resultado. Si el resultado
+                                 de la resta entrega un número negativo debes
+                                 mostrar un 0.
                               </div>
                            </div>
                         </div>

@@ -64,3 +64,8 @@ h1 {
 .exercise > div {
    background-color: var(--color-primary);
 }
+
+/*----------  TEST  ----------*/
+.accordion-body .carousel {
+   box-shadow: 0rem 0rem 0.5rem var(--color-acc-shadow);
+}
