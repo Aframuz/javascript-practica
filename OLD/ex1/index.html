@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=0, initial-scale=1.0" />
+      <!-- CSS -->
+      <link rel="stylesheet" href="./assets/css/style.css" />
+
+      <title>Document</title>
+   </head>
+   <body>
+      <h1>Escríbenos !!!</h1>
+      <p id="sucess">Mensaje enviado con éxito</p>
+      <form id="form" action="" method="get">
+         <div class="form-div">
+            <label for="name">Nombre completo </label>
+            <input type="text" name="name" id="name" />
+            <p class="required">El nombre es requerido</p>
+            <p class="regexFail">El nombre solo puede incluir letas</p>
+         </div>
+         <div class="form-div">
+            <label for="subject">Asunto </label>
+            <input type="text" name="subject" id="subject" />
+            <p class="required">El asunto es requerido</p>
+            <p class="regexFail">El asunto solo puede incluir letras</p>
+         </div>
+         <div class="form-div">
+            <label for="message">Mensaje </label>
+            <textarea name="message" id="message"></textarea>
+            <p class="required">El mensaje es requerido</p>
+            <p class="regexFail">El mensaje solo puede incluir letras</p>
+         </div>
+         <div class="form-div">
+            <input id="submit" type="button" value="Enviar mensaje" />
+         </div>
+      </form>
+
+      <!-- SCRIPTS -->
+      <script src="./assets/js/standaloneScript.js"></script>
+   </body>
+</html>

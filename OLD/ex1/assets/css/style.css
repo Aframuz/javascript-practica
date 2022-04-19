@@ -1,0 +1,20 @@
+#sucess {
+   color: green;
+}
+
+form {
+   margin-top: 1rem;
+}
+label {
+   display: block;
+   margin-bottom: 0.3rem;
+}
+
+.form-div {
+   margin-bottom: 1rem;
+}
+p {
+   display: none;
+   margin-top: 0.5rem;
+   color: red;
+}

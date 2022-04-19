@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Ejercicio 3</title>
+   </head>
+
+   <body>
+      <div>
+         <div>
+            <h2>Resultado: <span class="resultado"></span></h2>
+            <div>
+               <div>
+                  <div>
+                     <label for="">Valor 1</label>
+                     <input id="valor1" type="text" />
+                  </div>
+                  <div>
+                     <label for="">Valor 2</label>
+                     <input id="valor2" type="text" />
+                  </div>
+                  <div style="display: flex">
+                     <button id="btn-sumar" type="button">Sumar</button>
+                     <button id="btn-restar" type="button">Restar</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script>
+         // Variables
+         const result = document.getElementsByClassName("resultado")[0]
+
+         const sumButton = document.getElementById("btn-sumar")
+         const subButton = document.getElementById("btn-restar")
+
+         const firstVal = document.getElementById("valor1")
+         const secondVal = document.getElementById("valor2")
+
+         // EventListener sum
+         sumButton.addEventListener("click", (_) => {
+            // variables
+            const number1 = Number(firstVal.value)
+            const number2 = Number(secondVal.value)
+
+            let sum = number1 + number2
+            if (Number.isNaN(sum)) sum = "No es un número"
+
+            // Show result
+            result.innerText = sum
+         })
+
+         // EventListener substraction
+         subButton.addEventListener("click", (_) => {
+            // variables
+            const number1 = Number(firstVal.value)
+            const number2 = Number(secondVal.value)
+            let substraction = number1 - number2
+
+            if (substraction < 0) substraction = 0
+            if (Number.isNaN(substraction)) substraction = "No es un número"
+
+            // Show result
+            result.innerText = substraction
+         })
+      </script>
+   </body>
+</html>

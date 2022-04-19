@@ -1,0 +1,46 @@
+* {
+   box-sizing: border-box;
+}
+html,
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+#exercise-2 {
+   display: flex;
+}
+.column-1 {
+   display: flex;
+   flex-direction: column;
+   width: 15%;
+}
+.column-2 {
+   height: 100vh;
+   width: 85%;
+}
+
+.color {
+   height: 16.666vh;
+   border: 2px solid grey;
+}
+
+#red {
+   background-color: #e53e3e;
+}
+#orange {
+   background-color: #dd6b20;
+}
+#yellow {
+   background-color: #faf089;
+}
+#green {
+   background-color: #48bb78;
+}
+#blue {
+   background-color: #81e6d9;
+}
+#pink {
+   background-color: #d53f8c;
+}
