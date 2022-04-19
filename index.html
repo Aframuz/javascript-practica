@@ -280,9 +280,62 @@
                <!-- Exercise -->
                <div class="exercise col-12 col-lg-8 p-sm-2">
                   <div
-                     class="border border-white container mx-auto px-0 rounded-2"
+                     class="border border-white rounded-2 container mx-auto px-0 pt-1"
                   >
-                     <h2>Lorem</h2>
+                     <div
+                        id="carouselButtons"
+                        class="d-flex justify-content-around"
+                     >
+                        <button
+                           class="btn btn-dark active"
+                           type="button"
+                           data-bs-target="#mainCarousel"
+                           data-bs-slide-to="0"
+                           aria-current="true"
+                           aria-label="Ejercicio 1"
+                        >
+                           Ejercicio 1
+                        </button>
+                        <button
+                           class="btn btn-dark"
+                           type="button"
+                           data-bs-target="#mainCarousel"
+                           data-bs-slide-to="1"
+                           aria-label="Ejercicio 2"
+                        >
+                           Ejercicio 2
+                        </button>
+                        <button
+                           class="btn btn-dark"
+                           type="button"
+                           data-bs-target="#mainCarousel"
+                           data-bs-slide-to="2"
+                           aria-label="Ejercicio 3"
+                        >
+                           Ejercicio 3
+                        </button>
+                     </div>
+                     <div
+                        id="mainCarousel"
+                        class="carousel slide"
+                        data-bs-ride="carousel"
+                        data-bs-interval="false"
+                     >
+                        <div class="carousel-inner h-100">
+                           <div
+                              class="carousel-item active h-100"
+                              style="background-color: red"
+                           ></div>
+                           <div
+                              class="carousel-item h-100"
+                              style="background-color: black"
+                           ></div>
+                           <div
+                              class="carousel-item h-100"
+                              style="background-color: white"
+                           ></div>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
